@@ -1,0 +1,21 @@
+:root{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    align-items: center;
+}
+.center-text{
+    text-align: center;
+}
+ul{
+    font-size: x-large;
+}
+#create-note-form{
+    margin: 30px 0 30px 20px;
+}
+#new-note{
+    outline: none;
+}
+h1{
+    margin-left: 20px;
+}

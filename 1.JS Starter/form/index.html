@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phonebook</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="icon" href="book.png" type="image/x-icon" />
+</head>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;">
+
+    <!-- <nav class="navbar" style="background-color: #e3f2fd;"> -->
+    <div class="container">
+      <a class="navbar-brand" href="#">MyNotes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="#">Link</a> -->
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+          </li>
+        </ul>
+        <form id="searchform" class="d-flex" role="search">
+          <input id="search-text" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1>Roronoa Zoro's Phonebook👒⚔</h1>
+
+    <form id="create-note-form" action="">
+      <input type="text" class="p-2" name="note" id="new-note" placeholder="Enter your note here">
+      <input type="submit" value="Create Note" class="btn btn-primary">
+    </form>
+    <div id="searching-for"></div>
+    <div class="row align-items-start mt-4" id="add-note">
+      <div class="col">
+      </div>
+    </div>
+    <!-- <ul id="add-note" class="list-group list-group-numbered"> -->
+    <!-- <li>Mastering Wado Ichimonji.</li>
+            <li>Guard the watch tower.</li>
+            <li>Call to Luffy.</li> -->
+    </ul>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

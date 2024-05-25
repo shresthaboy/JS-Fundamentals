@@ -1,0 +1,44 @@
+*{
+    font-family: 'Poppins';
+   background-image: url(https://images.pexels.com/photos/1111597/pexels-photo-1111597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+   background-position: center;
+   background-repeat: no-repeat;
+}
+h1{
+    border-bottom: solid 2px;
+    color: #fbc531;
+    font-size: 30px;
+}
+.container{
+    margin: 10% auto;
+    border: solid white 4px;
+    padding: 10px;
+    width: 500px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#poem-box{
+    width: 200px;
+    padding: 20px;
+    border:solid white 3px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 1em;
+    
+}
+#generatePoem{
+    background: #fbc531;
+    color: rgb(255, 253, 253);
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px
+}
+

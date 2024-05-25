@@ -1,0 +1,11 @@
+*{
+    font-family: 'Poppins';
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 350px;
+    border: solid 2px;
+    border-radius: 5px;
+
+}
